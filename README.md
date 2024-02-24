@@ -11,15 +11,18 @@ by Machine Learning techniques, namely, their embeddings.
 
 ## Project Structure
 
-The project is organized as follows:
+The project is organized as follows according to the poetry standard for our Assignment:
 
-- [scrapping.ipynb](scrapping.ipynb): The Jupyter notebook that contains the code to scrape the data from the website
+- [scrapping.ipynb](rogets_thesaurus/scrapping.ipynb): The Jupyter notebook that contains the code to scrape the data
+  from the website
   and save the
   embeddings of the words to a ChromaDB database. (1st and 2nd objectives)
-- [clust_embed.ipynb](clust_embed.ipynb): The Jupyter notebook that contains the code for the one and two-level
+- [clust_embed.ipynb](rogets_thesaurus/clust_embed.ipynb): The Jupyter notebook that contains the code for the one and
+  two-level
   clustering of the
   embeddings. (3rd objective)
-- [cls_embed.ipynb](cls_embed.ipynb): The Jupyter notebook that contains the code for the classification of the
+- [cls_embed.ipynb](rogets_thesaurus/cls_embed.ipynb): The Jupyter notebook that contains the code for the
+  classification of the
   embeddings. (4th objective)
 
 Lastly, the Notebook [rogets_thesaurus.ipynb](rogets_thesaurus.ipynb) contains the assignment with the details of the
