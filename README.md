@@ -58,3 +58,25 @@ poetry shell
 ```bash
 jupyter notebook
 ```
+
+## Ollama Mistral Model
+
+In the clustering notebook, we will use the Mistral Chat model from Ollama. 
+The model is not included in the repository
+and needs to be downloaded from Ollama's website. 
+Ollama can be downloaded from the following link: [Ollama](https://ollama.com/)
+
+After downloading the model, we will need to pull it into our system 
+using the following command in the terminal
+
+```bash
+ollama run mistral
+```
+
+and then we will need to run the following command in the terminal
+
+```bash
+ollama serve
+```
+
+for the model to be available for use in the clustering notebook.
