@@ -23,7 +23,12 @@ The project is organized as follows according to the poetry standard for our Ass
   embeddings. (3rd objective)
 - [cls_embed.ipynb](rogets_thesaurus/cls_embed.ipynb): The Jupyter notebook that contains the code for the
   classification of the
-  embeddings. (4th objective)
+  embeddings. (4th objective) 
+
+> Note: We also have the [scrapping_full_thesaurus.ipynb](rogets_thesaurus/scrapping_full_thesaurus.ipynb) notebook that
+> contains the code to scrape the full thesaurus from the website and save the embeddings of the words to a ChromaDB
+> database. However, we did not use this notebook in the project. We only used the [scrapping.ipynb](rogets_thesaurus/scrapping.ipynb)
+> because it produced similar results and was faster to run.
 
 Lastly, the Notebook [rogets_thesaurus.ipynb](rogets_thesaurus.ipynb) contains the assignment with the details of the
 project objectives (4 in total).
